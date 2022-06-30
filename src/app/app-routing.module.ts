@@ -15,7 +15,6 @@ const routes: Routes = [
   { path: 'contacto', component: ContactoComponent },
   { path: 'arcoiris', component: ArcoirisComponent },
   { path: 'medanos', component: MedanosComponent  },
-  
   {path:'**',pathMatch:'full',redirectTo:'home'}
 ];
 
