@@ -12,11 +12,11 @@ Seguir los siguientes pasos:
 
 ## Repositorio GITHUB
 
-* [SanCleResidenciasGITHUB](https://github.com/KANGOO2021/SanCleResidenciasREACT)
+* [SanCleResidenciasGITHUB](https://github.com/KANGOO2021/SanCleAngular)
 
-## Deploy en HEROKU
+## Deploy en GITHUB PAGES
 
-* [SanCleResidenciasHEROKU](https://sancleresidencias-react.herokuapp.com/)
+* [SanCleResidenciasGITHUB_PAGES](https://kangoo2021.github.io/SanCleAngular/)
 
 ## Funcionamiento
 

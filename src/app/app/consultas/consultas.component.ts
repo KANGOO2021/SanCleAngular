@@ -51,7 +51,9 @@ export class ConsultasComponent implements OnInit {
     error: (e) => console.error(e)
     })
     this.toastr.success('El mensaje fue enviado exitosamente!', 'Consulta realizada!');
-    setTimeout(() => { this.router.navigate(['home']); }, 4000)
+    setTimeout(() => {
+     this.router.navigate(['home']);
+      window.scroll({top: 0, left: 0, behavior: 'smooth'}); }, 3000)
     this.consultaForm.reset()
   }
   
