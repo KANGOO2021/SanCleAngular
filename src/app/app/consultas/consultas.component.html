@@ -1,0 +1,38 @@
+<section class="fsection" id="consultas">
+
+    <form [formGroup]="consultaForm" (ngSubmit)="realizarConsulta()" class="formContact">
+        <div class="ftittle">
+            <h2>Consúltenos para su Reserva
+            </h2>
+        </div>
+        <div>
+            <label>Nombre:</label>
+            <input type="text" formControlName="nombre" name="nombre" placeholder="Ingrese su Nombre" id="nombre">
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="email" formControlName="email" name="email" placeholder="Ingrese su email" id="email">
+        </div>
+
+        <div>
+            <label>Cel/Whatsapp:</label>
+            <input type="number" formControlName="whatsapp" name="telefono" placeholder="Ingrese su número" id="telefono">
+        </div>
+        <div>
+            <label>Desde:</label>
+            <input type="date" formControlName="fecha_ingreso" name="fecha_ingreso" placeholder="Fecha ingreso" id="fecha_ingreso">
+        </div>
+        <div>
+            <label>Hasta:</label>
+            <input type="date" formControlName="fecha_salida" name="fecha_salida" placeholder="Fecha salida" id="fecha_salida">
+        </div>
+        <div>
+            <label>Mensaje:</label>
+            <textarea name="mensaje" formControlName="mensaje" placeholder="Escribe aquí su consulta" id="mensaje" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="ENVIAR" class="button" id="send">
+        </div>
+
+    </form>
+</section>

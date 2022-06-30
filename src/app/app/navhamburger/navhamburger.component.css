@@ -1,0 +1,60 @@
+@media (max-width: 540px) {
+
+.mat-sidenav-container{
+width: 100vw;
+}
+
+.mat-sidenav {
+  top: 0px;
+  width: 100vw;
+  height:50%;
+  background-color: black;
+  position: sticky;
+  transition: all 1s;
+ 
+}
+.mat-toolbar {
+ 
+  background-color: rgb(12, 2, 2);
+  border-color:black;
+}
+
+.mat-nav-list {
+
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+}
+
+.mat-nav-list a{
+
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  
+}
+
+.mat-nav-list a:hover {
+color: rgb(236, 31, 31);
+ 
+}
+
+.mat-icon {
+  font-size: 40px;
+  margin-right: 20px;
+  line-height: 20px;
+ 
+
+}
+
+
+.hhicon{
+  font-size: 25px;
+  margin-left: 15px;
+
+}
+
+}
+
+
