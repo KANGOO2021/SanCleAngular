@@ -23,6 +23,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './app/footer/footer.component';
+import { LogonavbarComponent } from './app/logonavbar/logonavbar.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { FooterComponent } from './app/footer/footer.component';
     MedanosComponent,
     ArcoirisComponent,
     NavhamburgerComponent,
-    FooterComponent
+    FooterComponent,
+    LogonavbarComponent
   ],
   imports: [
     BrowserModule,
