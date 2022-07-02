@@ -9,13 +9,14 @@ import { MedanosComponent } from './app/medanos/medanos.component';
 
 
 const routes: Routes = [
-  { path: './', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'consultas', component: ConsultasComponent },
   { path: 'traslados', component: TrasladosComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'arcoiris', component: ArcoirisComponent },
   { path: 'medanos', component: MedanosComponent  },
-  {path:'**',pathMatch:'full',redirectTo:'./'}
+  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+  { path:'',pathMatch:'full',redirectTo:'home'}
 ];
 
 export const AppRoutingModule = RouterModule.forRoot(routes);
