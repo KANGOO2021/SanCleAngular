@@ -1,0 +1,185 @@
+@media (max-width: 1400px) {
+    .contact {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            box-sizing: border-box;
+            font-family: monospace;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            background-image: url(../../../assets/img/contacto9.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 90%;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+    
+        .icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+        }
+    
+        #icon1 {
+            font-size: 80px;
+            margin-bottom: 10px;
+            color: rgb(74, 108, 183);
+            border-radius: 50%;
+        }
+    
+        #icon2 {
+            font-size: 80px;
+            margin-bottom: 10px;
+            color: rgb(187, 79, 16);
+            border-radius: 50%;
+        }
+    
+        #icon3 {
+            font-size: 80px;
+            margin-bottom: 10px;
+            color: rgb(77, 167, 53);
+            border-radius: 100%;
+        }
+    
+        #icon4 {
+            font-size: 80px;
+            margin-bottom: 10px;
+            color: rgb(231, 168, 73);
+            border-radius: 50%;
+        }
+}
+
+@media (max-width: 540px) {
+        /*CONTACTO*/
+            .contact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-sizing: border-box;
+                font-family: monospace;
+                font-size: 12px;
+                margin-top: -220px;
+                margin-bottom: 220px;
+                background: none;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                transition: all 1s;
+            }
+        
+            .icons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-sizing: border-box;
+            }
+        
+            #icon1 {
+                font-size: 70px;
+                margin-top: 50px;
+                margin-bottom: 5px;
+                color: rgb(74, 108, 183);
+                border-radius: 50%;
+            }
+        
+            #icon2 {
+                font-size: 70px;
+                margin-top: 50px;
+                margin-bottom: 5px;
+                color: rgb(187, 79, 16);
+                border-radius: 50%;
+            }
+        
+            #icon3 {
+                font-size: 70px;
+                margin-top: 50px;
+                margin-bottom: 5px;
+                color: rgb(77, 167, 53);
+                border-radius: 100%;
+            }
+        
+            #icon4 {
+                font-size: 70px;
+                margin-top: 50px;
+                margin-bottom: 5px;
+                color: rgb(231, 168, 73);
+                border-radius: 50%;
+            }
+}
+
+@media (min-width: 541px) and (max-width: 1023px) {
+    .contact {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            font-family: monospace;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../assets/img/contacto9.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 95%;
+            height: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+    
+        .icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #icon1 {
+            font-size: 80px;
+            margin-bottom: 12px;
+            color: rgb(74, 108, 183);
+            border-radius: 50%;
+        }
+    
+        #icon2 {
+            font-size: 80px;
+            margin-bottom: 12px;
+            color: rgb(187, 79, 16);
+            border-radius: 50%;
+        }
+    
+        #icon3 {
+            font-size: 80px;
+            margin-bottom: 12px;
+            color: rgb(77, 167, 53);
+            border-radius: 100%;
+        }
+    
+        #icon4 {
+            font-size: 80px;
+            margin-bottom: 12px;
+            color: rgb(231, 168, 73);
+            border-radius: 50%;
+        }
+    
+        #hrcontact {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 0px
+        }
+    
+        .hicons {
+            font-size: 20px;
+        }
+    
+        .picons {
+            font-size: 15px;
+        }
+}

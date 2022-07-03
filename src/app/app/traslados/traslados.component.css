@@ -1,0 +1,230 @@
+@media (max-width: 1400px) {
+
+    .traslados {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            font-family: monospace;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            width: 90%;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+    
+        #icon5 {
+            font-size: 100px;
+            margin-bottom: 10px;
+            color: rgb(74, 108, 183);
+            border-radius: 50%;
+        }
+    
+        #icon6 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: rgb(231, 168, 73);
+            border-radius: 50%;
+        }
+    
+        #icon7 {
+            font-size: 120px;
+            margin-bottom: 10px;
+            color: rgb(170, 18, 30);
+            border-radius: 100%;
+        }
+    
+        #icon8 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: rgb(231, 168, 73);
+            border-radius: 50%;
+        }
+    
+        .dicons {
+            display: flex;
+        }
+    
+        .tsection {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif;
+            text-align: justify;
+            margin-top: 50px;
+        }
+    
+        .ttittle {
+            font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    
+        .tp {
+            font-size: 20px;
+        }
+}
+@media (max-width: 540px) {
+
+    /*TRASLADO*/
+        .tsection {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif;
+            text-align: justify;
+            margin-top: -400px;
+            transition: all 1s;
+        }
+    
+        .ttittle {
+            font-size: 15px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+    
+        .tp {
+            font-size: 12px;
+        }
+    
+        #traslate {
+            display: flex;
+            flex-flow: column nowrap;
+            box-sizing: border-box;
+            font-family: monospace;
+            margin-top: 40px;
+            margin-bottom: 570px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #icon5 {
+            font-size: 70px;
+            margin-bottom: 10px;
+            color: rgb(74, 108, 183);
+        }
+    
+        #icon6 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(231, 168, 73);
+            transform: rotate(90deg);
+        }
+    
+        #icon7 {
+            font-size: 80px;
+            margin-bottom: 0px;
+            color: rgb(170, 18, 30);
+        }
+    
+        #icon8 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(231, 168, 73);
+            transform: rotate(90deg);
+        }
+    
+        .dicons {
+            display: block;
+        }
+    
+        .tregreso {
+            display: none;
+        }
+    
+        .tida {
+            display: none;
+        }
+}
+
+@media (min-width: 541px) and (max-width: 1023px) {
+
+    .traslados {
+            display: flex;
+            flex-direction: rows;
+            align-items: center;
+            font-family: monospace;
+            margin-top: 20px;
+            margin-bottom: 520px;
+            width: 95%;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+    
+        #icon5 {
+            font-size: 100px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: rgb(74, 108, 183);
+            border-radius: 50%;
+        }
+    
+        #icon6 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(231, 168, 73);
+            border-radius: 50%;
+            transform: rotate(90deg);
+        }
+    
+        #icon7 {
+            font-size: 100px;
+            margin-bottom: 20px;
+            color: rgb(170, 18, 30);
+            border-radius: 100%;
+        }
+    
+        #icon8 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(231, 168, 73);
+            border-radius: 50%;
+            transform: rotate(90deg);
+        }
+    
+        .dicons {
+            display: flex;
+            flex-direction: rows;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+    
+        .tsection {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif;
+            text-align: justify;
+            margin-top: 50px;
+        }
+    
+        .ttittle {
+            font-size: 20px;
+            margin-top: -30px;
+            margin-bottom: 10px;
+        }
+    
+        .tp {
+            font-size: 16px;
+        }
+    
+        .tregreso {
+            display: none;
+        }
+    
+        .tida {
+            display: none;
+        }
+}

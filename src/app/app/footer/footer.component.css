@@ -1,0 +1,38 @@
+@media (max-width: 1400px) {
+
+    hr {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .footer {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            text-align: center;
+    
+        }
+}
+
+@media (max-width: 540px) {
+
+    .footer {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin: 10px;
+        }
+}
+
+@media (min-width: 541px) and (max-width: 1023px) {
+
+    .footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+}
