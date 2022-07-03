@@ -72,11 +72,13 @@
             background-color: rgb(112, 180, 241);
             padding: 10px;
             border-radius: 15px;
-            text-decoration: none;
             border: none;
             margin-top: 20px;
-            margin-bottom: 10px;
-            
+            margin-bottom: 10px;    
+        }
+        .boton{
+            color: white;
+            text-decoration: none;
         }
     
         .mm {
@@ -101,7 +103,6 @@
 
 @media (max-width: 540px) {
 
-    /*INDEX*/
         .section {
             display: flex;
             flex-direction: column;
@@ -175,6 +176,11 @@
             margin-top: 20px;
             margin-bottom: 10px;
         }
+
+        .boton {
+            color: white;
+            text-decoration: none;
+        }
     
         .mm {
             display: flex;
@@ -198,6 +204,7 @@
 }
 
 @media (min-width: 541px) and (max-width: 1023px) {
+
     .section {
             display: flex;
             justify-content: flex-end;
@@ -270,6 +277,11 @@
             border: none;
             margin-top: 20px;
             margin-bottom: 10px;
+        }
+
+        .boton {
+            color: white;
+            text-decoration: none;
         }
     
         .mm {

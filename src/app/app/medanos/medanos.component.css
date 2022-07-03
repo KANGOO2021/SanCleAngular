@@ -1,4 +1,4 @@
-    @media (max-width: 1400px) {
+@media (max-width: 1400px) {
     
     .mtittle {
         font-family: 'Roboto', sans-serif;
@@ -211,7 +211,7 @@
             font-family: 'Roboto', sans-serif;
             font-size: 18px;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 70px;
             box-sizing: border-box;
             background-color: rgb(143, 125, 206);
             color: white;
@@ -402,7 +402,6 @@
 
         @media (min-width: 541px) and (max-width: 1023px) {
 
-            /* MEDANOS */
                 .mtittle {
                     font-family: 'Roboto', sans-serif;
                     font-size: 25px;

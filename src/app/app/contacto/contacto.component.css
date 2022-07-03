@@ -1,4 +1,5 @@
 @media (max-width: 1400px) {
+
     .contact {
             display: flex;
             justify-content: space-evenly;
@@ -53,8 +54,8 @@
         }
 }
 
-@media (max-width: 540px) {
-        /*CONTACTO*/
+    @media (max-width: 540px) {
+      
             .contact {
                 display: flex;
                 flex-direction: column;
@@ -62,7 +63,7 @@
                 box-sizing: border-box;
                 font-family: monospace;
                 font-size: 12px;
-                margin-top: -220px;
+                margin-top: -200px;
                 margin-bottom: 220px;
                 background: none;
                 width: 90%;
